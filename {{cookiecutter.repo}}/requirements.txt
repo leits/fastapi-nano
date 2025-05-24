@@ -7,39 +7,36 @@
 asgiref==3.4.1
     # via uvicorn
 bcrypt==3.2.0
-    # via -r {{cookiecutter.repo}}/requirements.in
+    # via -r requirements.in
 cffi==1.14.6
     # via bcrypt
 click==8.0.1
     # via uvicorn
 fastapi==0.68.1
-    # via -r {{cookiecutter.repo}}/requirements.in
-gunicorn==20.1.0
-    # via -r {{cookiecutter.repo}}/requirements.in
-h11==0.12.0
+    # via -r requirements.in
+gunicorn==23.0.0
+    # via -r requirements.in
+h11==0.16.0
     # via uvicorn
+packaging==25.0
+    # via gunicorn
 passlib==1.7.4
-    # via -r {{cookiecutter.repo}}/requirements.in
+    # via -r requirements.in
 pycparser==2.20
     # via cffi
-pydantic==1.8.2
+pydantic==1.10.13
     # via fastapi
-pyjwt==2.1.0
-    # via -r {{cookiecutter.repo}}/requirements.in
+pyjwt==2.4.0
+    # via -r requirements.in
 python-dotenv==0.19.0
-    # via -r {{cookiecutter.repo}}/requirements.in
-python-multipart==0.0.5
-    # via -r {{cookiecutter.repo}}/requirements.in
+    # via -r requirements.in
+python-multipart==0.0.18
+    # via -r requirements.in
 six==1.16.0
-    # via
-    #   bcrypt
-    #   python-multipart
+    # via bcrypt
 starlette==0.14.2
     # via fastapi
-typing-extensions==3.10.0.2
+typing-extensions==4.13.2
     # via pydantic
 uvicorn==0.15.0
-    # via -r {{cookiecutter.repo}}/requirements.in
-
-# The following packages are considered to be unsafe in a requirements file:
-# setuptools
+    # via -r requirements.in

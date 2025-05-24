@@ -10,9 +10,9 @@ attrs==21.2.0
     # via pytest
 binaryornot==0.4.4
     # via cookiecutter
-black==21.8b0
-    # via -r {{cookiecutter.repo}}/requirements-dev.in
-certifi==2021.5.30
+black==24.3.0
+    # via -r requirements-dev.in
+certifi==2024.7.4
     # via requests
 chardet==4.0.0
     # via binaryornot
@@ -23,17 +23,17 @@ click==8.0.1
     #   black
     #   cookiecutter
     #   pip-tools
-cookiecutter==1.7.3
-    # via -r {{cookiecutter.repo}}/requirements-dev.in
+cookiecutter==2.1.1
+    # via -r requirements-dev.in
 flake8==3.9.2
-    # via -r {{cookiecutter.repo}}/requirements-dev.in
-idna==3.2
+    # via -r requirements-dev.in
+idna==3.7
     # via requests
 iniconfig==1.1.1
     # via pytest
 isort==5.9.3
-    # via -r {{cookiecutter.repo}}/requirements-dev.in
-jinja2==3.0.1
+    # via -r requirements-dev.in
+jinja2==3.1.6
     # via
     #   cookiecutter
     #   jinja2-time
@@ -44,47 +44,43 @@ markupsafe==2.0.1
 mccabe==0.6.1
     # via flake8
 mypy==0.910
-    # via -r {{cookiecutter.repo}}/requirements-dev.in
+    # via -r requirements-dev.in
 mypy-extensions==0.4.3
     # via
     #   black
     #   mypy
-packaging==21.0
-    # via pytest
+packaging==25.0
+    # via
+    #   black
+    #   pytest
 pathspec==0.9.0
     # via black
 pep517==0.11.0
     # via pip-tools
 pip-tools==6.2.0
-    # via -r {{cookiecutter.repo}}/requirements-dev.in
+    # via -r requirements-dev.in
 platformdirs==2.3.0
     # via black
 pluggy==1.0.0
     # via pytest
-poyo==0.5.0
-    # via cookiecutter
-py==1.10.0
+py==1.11.0
     # via pytest
 pycodestyle==2.7.0
     # via flake8
 pyflakes==2.3.1
     # via flake8
-pyparsing==2.4.7
-    # via packaging
 pytest==6.2.5
-    # via -r {{cookiecutter.repo}}/requirements-dev.in
+    # via -r requirements-dev.in
 python-dateutil==2.8.2
     # via arrow
 python-slugify==5.0.2
     # via cookiecutter
-regex==2021.8.28
-    # via black
-requests==2.26.0
+pyyaml==6.0.2
+    # via cookiecutter
+requests==2.32.2
     # via cookiecutter
 six==1.16.0
-    # via
-    #   cookiecutter
-    #   python-dateutil
+    # via python-dateutil
 text-unidecode==1.3
     # via python-slugify
 toml==0.10.2
@@ -95,13 +91,13 @@ tomli==1.2.1
     # via
     #   black
     #   pep517
-typing-extensions==3.10.0.2
+typing-extensions==4.13.2
     # via
     #   black
     #   mypy
-urllib3==1.26.6
+urllib3==1.26.19
     # via requests
-wheel==0.37.0
+wheel==0.38.1
     # via pip-tools
 
 # The following packages are considered to be unsafe in a requirements file:
